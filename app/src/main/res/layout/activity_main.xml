@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.xlg.weidget.BeiSaiErView
+        android:id="@+id/beisai_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <Button
+        android:id="@+id/btn_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click"
+        android:layout_marginTop="310dp"
+        />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_click"
+        android:text="next"
+        android:layout_marginTop="10dp"
+        />
+
+    <com.xlg.weidget.HeartFlowLayout
+        android:id="@+id/heart_flow"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="#000000"
+        android:visibility="gone"
+        >
+
+    </com.xlg.weidget.HeartFlowLayout>
+    <TextView
+        android:id="@+id/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textColor="#FFFFFF"
+        />
+
+
+</RelativeLayout>
